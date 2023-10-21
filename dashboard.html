@@ -1,20 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dashboard</title>
+    <title>Dashboard E-DUMAS</title>
 </head>
 <body>
-
     <div id="imported-content"></div>
 
-    <script>
-        // Menggunakan JavaScript untuk memuat isi dari halaman lain
-        fetch('https://e-dumas-sukasari.github.io/web-proposal/')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('imported-content').innerHTML = data;
-            })
-            .catch(error => console.error(error));
-    </script>
+    <!-- Sisipkan skrip JavaScript yang terpisah -->
+    <script src="js/dashboard.js"></script>
 </body>
 </html>
