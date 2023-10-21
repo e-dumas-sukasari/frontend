@@ -24,9 +24,9 @@
 }
 
 .denied__wrapper {
-  max-width: 390px;
+  max-width: 200px;
   width: 100%;
-  height: 390px;
+  height: 10px;
   display: block;
   margin: 0 auto;
   position: relative;
