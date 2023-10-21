@@ -23,9 +23,9 @@ function responseData(result){
         window.location.href = "dashboard.html"; // Gantilah "error.html" dengan halaman error yang sesuai.
     } else if (result.message === "Password Salah") {
         // Jika pesan kesalahan adalah "Password salah", arahkan ke halaman error.
-        window.location.href = "404.html";
+        window.location.href = "./404.html";
     } else {
         // Penanganan lainnya (pesan kesalahan lainnya)
-        window.location.href = "index.html";
+        window.location.href = "./index.html";
     }
 }
