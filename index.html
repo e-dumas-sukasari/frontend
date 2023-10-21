@@ -21,17 +21,17 @@
           <form id="login-form">
           <div class="d-inline text-center mb-0">
             <div class="form-group mx-auto">
-              <input class="form-control inpSp" type="text" placeholder="username">
+              <input class="form-control inpSp" type="text" placeholder="username" id="username" name="username" value="edumas1">
             </div>
           </div>
           <div class="d-inline text-center mb-3">
             <div class="form-group mx-auto">
-              <input class="form-control inpSp" type="password" placeholder="Password">
+              <input class="form-control inpSp" type="password" placeholder="Password" id="password" name="password" value="1234321">
             </div>
           </div>
           <div class="d-inline text-left mb-3">
             <div class="form-group mx-auto">
-              <button class="btn btn-primary">Confirm</button>
+              <button class="btn btn-primary" type="submit" id="button" onclick="PostSignUp()">Confirm</button>
               <a class="small text-black-50 pl-2 ml-2 border-left" href="">Forgot Password ?</a>
             </div>
           </div>
@@ -60,5 +60,8 @@
       </div>
     </div>
   </div>
+
+  <script type="module" src="js/script.js"></script>
+
 </body>
 </html>
