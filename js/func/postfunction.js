@@ -12,7 +12,7 @@ export default function PostSignUp(){
     }
 
     postWithToken(target_url,tokenkey,tokenvalue,datainjson,responseData);
-
+    
 }
 
 function responseData(result){
